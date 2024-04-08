@@ -642,7 +642,7 @@ function runThree() {
 
         function loadFont() {
             const loader = new FontLoader();
-            loader.load(  '/font/gentilis_bold.typeface.json', function ( response ) {
+            loader.load(  '/threeJsLearn/font/gentilis_bold.typeface.json', function ( response ) {
 
                 font = response;
 

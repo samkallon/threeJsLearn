@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "build": "vite build --base=/threeJsLearn/"
+    "build": "vite build --base=/threeJsLearn/",
+    "run": "vite --base=/threeJsLearn/"
   },
   "dependencies": {
     "gui": "^0.15.3",
