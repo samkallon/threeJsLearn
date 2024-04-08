@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>My first three.js app</title>
+    <style>
+        body { margin: 0; }
+    </style>
+</head>
+<body>
+<div style="display: flex;width: 100%;position: absolute;justify-content: center">
+    <div class="btn" onclick="window.currentJs = 'box';window.runThree()">初始场景正方形</div>
+    <div class="btn" onclick="window.currentJs = 'line';window.runThree()">画线</div>
+    <div class="btn" onclick="window.currentJs = 'text';window.runThree()">文字</div>
+    <div class="btn" onclick="window.currentJs = 'gltf';window.runThree()">模型</div>
+</div>
+<script type="module" src="/main.js"></script>
+
+<style>
+    .btn{
+        background: cadetblue;
+        color: white;
+        padding: 4px;
+        cursor: pointer;
+        margin-left: 8px;
+        margin-top: 8px;
+    }
+</style>
+</body>
+</html>
